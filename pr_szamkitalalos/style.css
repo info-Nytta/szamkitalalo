@@ -1,0 +1,122 @@
+* {box-sizing: border-box;}
+body {
+	background-color: lightgreen;
+	font-family: Arial;
+	}
+a {
+	text-decoration: none;}
+header {
+	overflow:auto;
+}
+h1 {
+	text-align: right;
+	text-shadow: 0 0 5px white;
+}
+nav {
+	margin: 15px auto;
+	padding: 10px 5px;
+	background-color: lightgreen;
+	color: black;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	box-shadow: 0 0 3px 0 black;
+	text-align: center;
+}
+nav a {
+	color:black;
+	padding: 10px 3px;
+	font-variant: small-caps;
+	text-shadow: 0 0 5px white;
+	display: block;
+}
+nav a:hover {
+	color:white;
+	background-color:black;
+}
+span.valaszto {
+	display:none;
+}
+.center {
+	text-align: center; }
+div.full {
+	background-color: lightgray;
+	margin: auto;
+	width: 95%;
+	max-width: 800px;
+	padding: 50px;
+	min-height: 600px;
+	box-shadow: 0 0 5px black;
+	border-radius: 5px; }
+main {
+	
+}
+p.pontok {
+	text-align: right;
+	font-style: italic;
+	font-size: 90%;
+	font-family: Sans;
+	padding-right: 10px;
+}
+span.tilt {
+	color:red; }
+span.enged {
+	color:green; }
+span.jel {
+	display:none;}
+span.jel-kicsi {
+	color:green;
+}
+span.szam {
+	font-size:120%;
+	 }
+#logo img {
+	float:left;
+	height:100px;
+	border-radius:5px;
+	margin-bottom: 10px;
+}
+footer {
+	text-align: right;
+	font-style: italic;
+	font-size: 80%;
+	font-family: Sans;
+	margin: 50px auto auto auto;
+	padding: 10px 5px;
+	border-top: 1px black solid;
+}
+
+
+@media screen and (min-width: 500px) {
+  span.jel {
+		display: inline;
+    font-size: 35%;
+  }
+	span.jel-kicsi {
+		display:none;
+	}
+	span.valaszto {
+		display: inline;
+	}
+	nav a {
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 700px) {
+  span.jel {
+		display: inline;
+    font-size: 55%;
+  }
+	span.jel-kicsi {
+		display:none;
+	}
+}
+
+@media screen and (min-width: 850px) {
+  span.jel {
+		display: inline;
+    font-size: 75%;
+  }
+	span.jel-kicsi {
+		display:none;
+	}
+}
