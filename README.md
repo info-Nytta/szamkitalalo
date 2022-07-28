@@ -3,5 +3,6 @@ logikai/oktató/fejlesztő játék
 
 https://info.nytta.hu/logikai/pr_szamkitalalos/
 
-tanároknak, játékvezetőknek, bárkinek a játékhoz kapcsolódó stratégia, tovább gondolási lehetőség:
+A játékhoz kapcsolódó nyerő stratégia ("spoiler") és tovább gondolási lehetőségek:
+
 http://info.nytta.hu/turkalo/szkital.htm
