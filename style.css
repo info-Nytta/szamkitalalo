@@ -1,0 +1,151 @@
+* {box-sizing: border-box;}
+body {
+	background-color: powderblue;
+	font-family: Arial;
+	max-width: 800px;
+	margin:auto;
+	background-color:#eee;
+}
+a {
+	text-decoration: none;}
+header {
+	overflow:auto;
+	padding:20px 10px 10px 10px;
+}
+h1 {
+	text-align: center;
+	text-shadow: 0 0 5px white;
+}
+nav {
+	margin: 15px auto;
+	background-color: powderblue;
+	color: black;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	box-shadow: 0 0 3px 0 black;
+	text-align: center;
+}
+#hambi {
+	display:block;
+	text-align: right;
+	font-size: 150%;
+	padding:10px 20px;
+}
+#menupontok {
+	display:none;
+}
+nav a {
+	color:black;
+	padding: 10px;
+	font-variant: small-caps;
+	text-shadow: 0 0 5px white;
+	display: block;
+}
+nav a:hover {
+	color:white;
+	background-color:black;
+}
+span.valaszto {
+	display:none;
+}
+.center {
+	text-align: center; }
+/*
+div.full {
+	background-color: lightgray;
+	margin: auto;
+	width: 95%;
+	max-width: 800px;
+	padding: 50px;
+	min-height: 600px;
+	box-shadow: 0 0 5px black;
+	border-radius: 5px; }
+*/
+main {
+	max-width: 800px;
+	padding:10px;
+}
+p.pontok {
+	text-align: right;
+	font-style: italic;
+	font-size: 90%;
+	font-family: Sans;
+	padding-right: 10px;
+}
+span.tilt {
+	color:red; }
+span.enged {
+	color:green; }
+span.jel {
+	display:none;
+}
+span.jel-kicsi {
+	color:green;
+}
+span.szam {
+	font-size:110%;
+	 }
+#logo img {
+	float:left;
+	height:100px;
+	border-radius:5px;
+	margin-bottom: 10px;
+	display:none;
+}
+footer {
+	text-align: right;
+	font-style: italic;
+	font-size: 80%;
+	font-family: Sans;
+	margin: 50px auto auto auto;
+	padding: 10px 5px;
+	border-top: 1px black solid;
+}
+
+
+@media screen and (min-width: 500px) {
+  span.jel {
+		display: inline;
+    font-size: 35%;
+  	}
+	span.jel-kicsi {
+		display:none;
+	}
+	span.valaszto {
+		display: inline;
+	}
+	nav a {
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 700px) {
+  span.jel {
+		display: inline;
+    font-size: 55%;
+  }
+	span.jel-kicsi {
+		display:none;
+	}
+	#logo img{
+		display:block;
+	}
+	h1 {
+		text-align: right;
+	}
+	#hambi {
+		display:none;
+	}
+	#menupontok {
+		display:block;
+	}
+}
+
+@media screen and (min-width: 850px) {
+  span.jel {
+		display: inline;
+    font-size: 70%;
+  }
+	span.jel-kicsi {
+		display:none;
+	}
+}

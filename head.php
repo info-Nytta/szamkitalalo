@@ -1,4 +1,3 @@
-<?php ?>
 <!doctype html>
 <html lang='hu'>
 <head>
@@ -8,7 +7,6 @@
 	<title>Számkitalálós játék</title>
 </head>
 <body>
-<div class='full'>
 	<header>
 		<div id="logo">
 			<a href='./'><img src='./img/logo.jpg'></a>
@@ -18,7 +16,25 @@
 		</div>
 	</header>
 	<nav>
-		<a href='./?jatek=gep'>Gép gondol</a><span class='valaszto'> | </span>
-		<a href='./?jatek=jatekos'>Játékos gondol</a>
+		<div id="hambi" onclick="menu_valt()"><span id="hambi_gomb">&#9776;</span></div>
+		<div id="menupontok">
+			<a href='./'>Játék menete</a><span class='valaszto'> | </span>
+			<a href='./?jatek=gg'>Gép gondol</a><span class='valaszto'> | </span>
+			<a href='./?jatek=jg'>Játékos gondol</a>
+		</div>
 	</nav>
+   	<script>
+       function menu_valt() {
+           menu=document.getElementById("menupontok");
+           gomb=document.getElementById("hambi_gomb");
+           if (menu.style.display=="block"){
+               menu.style.display="none";
+               gomb.innerHTML="&#9776;";
+           } else {
+               menu.style.display="block";
+               gomb.innerHTML="&#9932;";
+           }
+       }
+   	</script>
+
 	<main>

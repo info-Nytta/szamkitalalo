@@ -1,8 +1,8 @@
-<?php ?>
 	</main>
 	<footer>
-		design and programming<br>by Nytta
+		<p style='font-style:italic;'>
+			programming by <a href='https://nytta.hu' target='_blank'>Nytta</a> 2022.
+	</p>
 	</footer>
-</div>
 </body>
 </html>
